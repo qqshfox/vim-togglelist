@@ -10,11 +10,5 @@ can still use `<C-w>p`.
 
 ## Mappings
 
-The default mappings are:
-
     nmap <script> <silent> <leader>l :call ToggleLocationList()<CR>
     nmap <script> <silent> <leader>q :call ToggleQuickfixList()<CR>
-
-You can easily unmap these and remap them if you want, both
-`ToggleLocationList` and `ToggleQuickfixList` are global functions.  I imagine
-the names of the functions are self-explanatory.
